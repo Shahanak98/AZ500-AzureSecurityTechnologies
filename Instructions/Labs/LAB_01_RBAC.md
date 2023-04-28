@@ -1,14 +1,5 @@
----
-lab:
-    title: '01 - Role Based Access Control'
-    module: 'Module 01 - Manage Identity and Access'
----
-
-# Lab 01: Role-Based Access Control
-# Student lab manual
-
+# Module 01 Lab 01: Role-Based Access Control
 ## Lab scenario
-
 You have been asked to create a proof of concept showing how Azure users and groups are created. Also, how role-based access control is used to assign roles to groups. Specifically, you need to:
 
 - Create a Senior Admins group containing the user account of Joseph Price as its member.
