@@ -1,6 +1,9 @@
 # Lab Scenario Preview: AZ-500: Secure Data and Applications
 
 ## Lab 12: Service Endpoints and Securing Storage
+
+### Lab overview
+
 You have been asked to create a proof of concept to demonstrate securing Azure file shares. Specifically, you want to:
 - Create a storage endpoint so traffic destined to Azure Storage always stays within the Azure backbone network.
 - Configure the storage endpoint so only resources from a specific subnet can access the storage.
@@ -8,10 +11,13 @@ You have been asked to create a proof of concept to demonstrate securing Azure f
 
 > For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
-### Lab objectives
+### Objectives
+
 In this lab, you will complete the following exercise:
 - Exercise 1: Service endpoints and security storage
 
 ### Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/91347931/157534883-29664a05-85d1-4c70-99a7-f16d2360755d.png)
+![](media/AZ-500-LSP-Mod-3-3.png)
+
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c151c68e-2cc7-4e50-bc81-672aced16480) if you want to go through detailed guide prior to launching lab environment.
