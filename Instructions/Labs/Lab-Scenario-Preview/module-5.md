@@ -1,6 +1,9 @@
 # Lab Scenario Preview: AZ-500: Manage Identity and Access - Part B
 
 ## Lab 05: Azure AD Privileged Identity Management
+
+### Lab overview
+
 You have been asked to create a proof of concept that uses Azure Privileged Identity Management (PIM) to enable just-in-time administration and control the number of users who can perform privileged operations. The specific requirements are:
 - Create a permanent assignment of the aaduser2 Azure AD user to the Security Administrator role. 
 - Configure the aaduser2 Azure AD user to be eligible for the Billing Administrator and Global Reader roles.
@@ -11,7 +14,7 @@ You have been asked to create a proof of concept that uses Azure Privileged Iden
 
 > Before you proceed, ensure that you have completed Lab 04: MFA, Conditional Access and AAD Identity Protection . You will need the Azure AD tenant, AdatumLab500-04, and the aaduser1, aaduser2, and aaduser3 user accounts.
 
-### Lab objectives
+### Objectives
 In this lab, you will complete the following exercises:
 - Exercise 1: Configure PIM users and roles.
 - Exercise 2: Activate PIM roles with and without approval.
@@ -19,4 +22,6 @@ In this lab, you will complete the following exercises:
 
 ### Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/91347931/157522920-264ce57e-5c55-4a9d-8f35-e046e1a1e219.png)
+![](media/AZ-500-LSP-Mod-1b-2.png)
+
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c151c68e-2cc7-4e50-bc81-672aced16480) if you want to go through detailed guide prior to launching lab environment.

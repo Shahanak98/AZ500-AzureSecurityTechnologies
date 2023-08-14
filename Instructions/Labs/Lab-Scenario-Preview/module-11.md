@@ -1,6 +1,9 @@
 # Lab Scenario Preview: AZ-500: Secure Data and Applications
 
 ## Lab 11: Securing Azure SQL Database
+
+### Lab overview
+
 You have been asked to review security features for Azure SQL database. Specifically, you are interested in:
 - Protection against attacks such as SQL injection and data exfiltration. 
 - Ability to discover and classify database information into categories such as Confidential. 
@@ -8,10 +11,13 @@ You have been asked to review security features for Azure SQL database. Specific
 
 > For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
-### Lab objectives
+### Objectives
+
 In this lab, you will complete the following exercise:
 - Exercise 1: Implement SQL Database security features
 
 ### Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/91347931/157533836-7250fa58-a109-4882-a55b-d3fa3baf34ab.png)
+![](media/AZ-500-LSP-Mod-3-2.png)
+
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c151c68e-2cc7-4e50-bc81-672aced16480) if you want to go through detailed guide prior to launching lab environment.
