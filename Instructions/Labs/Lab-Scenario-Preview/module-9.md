@@ -1,6 +1,9 @@
 # Lab Scenario Preview: AZ-500: Implement Platform Protection
 
 ## Lab 09: Configuring and Securing ACR and AKS
+
+### Lab overview
+
 You have been asked to deploy a proof of concept with Azure Container Registry and Azure Kubernetes Service. Specifically, the proof of concept should demonstrate:
 - Using Dockerfile to build an image.
 - Using Azure Container Registry to store images.
@@ -9,10 +12,13 @@ You have been asked to deploy a proof of concept with Azure Container Registry a
 
 > For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
-### Lab objectives
+### Objectives
+
 In this lab, you will complete the following exercise:
 - Exercise 1: Configuring and Securing ACR and AKS
 
 ### Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/91347931/157532250-1104a829-792a-4b6d-beff-fe976e2d5d4b.png)
+![](media/AZ-500-LSP-Mod-2-3.png)
+
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c151c68e-2cc7-4e50-bc81-672aced16480) if you want to go through detailed guide prior to launching lab environment.
