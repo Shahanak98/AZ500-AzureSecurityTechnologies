@@ -21,4 +21,4 @@ In this lab, you will complete the following exercises:
 
 ![](media/AZ-500-LSP-Mod-1b-3.png)
 
-Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/c151c68e-2cc7-4e50-bc81-672aced16480) if you want to go through detailed guide prior to launching lab environment.
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/5329d166-0102-46b1-b250-30334d3c1893) if you want to go through detailed guide prior to launching lab environment.
