@@ -1,5 +1,3 @@
-
-
 # Lab 13: Azure Monitor
 # Student lab manual
 
@@ -178,10 +176,19 @@ In this task, you will run a log search on your data collection.
 > **Results:** You used a Log Analytics workspace to configure data sources and query logs. 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+## Review
 
-**You have successfully completed the lab**
+In this lab, you have:
+
+- Deployed an Azure virtual machine.
+- Created a Log Analytics workspace.
+- Enabled the Log Analytics virtual machine extension.
+- Collected virtual machine event and performance data.
+- Viewed and query collected data.
+
+## You have successfully completed the lab

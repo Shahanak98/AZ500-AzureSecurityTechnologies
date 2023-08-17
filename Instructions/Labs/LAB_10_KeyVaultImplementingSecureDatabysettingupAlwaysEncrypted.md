@@ -1,5 +1,3 @@
-
-
 # Lab 10: Key Vault (Implementing Secure Data by setting up Always Encrypted)
 # Student lab manual
 
@@ -76,12 +74,12 @@ In this task, you will deploy an Azure VM, which will automatically install Visu
     >**Note**: This initiates the deployment of the Azure VM and Azure SQL Database required for this lab. 
 
     >**Note**: Do not wait for the ARM template deployment to be completed, continue on to the next exercise. The deployment might take upto **20-25 minutes**. 
-    > 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-,   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 
 ### Exercise 2: Configure the Key Vault resource with a key and a secret
@@ -217,12 +215,12 @@ In this task, you will add a key to the Key Vault and view information about the
     >**Note**: Examine the information about the secret you created.
 
     >**Note**: To get the most current version of a secret, reference `https://<key_vault_name>.vault.azure.net/secrets/<secret_name>` or get a specific version, reference `https://<key_vault_name>.vault.azure.net/secrets/<secret_name>/<secret_version>`
-    > 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 
 
@@ -237,7 +235,7 @@ In this exercise, you will complete the following tasks:
 - Task 5: Create a table in the SQL Database and select data columns for encryption
 
 
-#### Task 1: Enable a client application to access the Azure SQL Database service. 
+#### Task 1: Enable a client application to access the Azure SQL Database service
 
 In this task, you will enable a client application to access the Azure SQL Database service. This will be done by setting up the required authentication and acquiring the Application ID and Secret that you will need to authenticate your application. T
 
@@ -505,11 +503,19 @@ You will create a Console application using Visual Studio to load data into the 
 20. To terminate the console app, press the Enter key
 
     
- > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	
-  - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+## Review
+
+In this lab, you have:
+
+- Deployed the base infrastructure from an ARM template.
+- Configured the Key Vault resource with a key and a secret.
+- Configured an Azure SQL database and a data-driven application.
+- Demonstrated the use of Azure Key Vault in encrypting the Azure SQL database.
+
+## You have successfully completed the lab

@@ -474,12 +474,24 @@ In this task, you will connect to the myVMPrivate virtual machine via Remote Des
 
      >**Note**: At this point, you have confirmed that the virtual machine in the Public subnet cannot access the storage account, but has access to the internet.
     
- > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+## Review
 
-**You have successfully completed the lab**
+In this lab, you have:
+
+- Created a virtual network.
+- Added a subnet to the virtual network and configure a storage endpoint.
+- Configured a network security group to restrict access to the subnet.
+- Configured a network security group to allow rdp on the public subnet.
+- Created a storage account with a file share.
+- Deployed virtual machines into the designated subnets.
+- Tested the storage connection from the private subnet to confirm that access is allowed.
+- Tested the storage connection from the public subnet to confirm that access is denied.
+
+## You have successfully completed the lab
 

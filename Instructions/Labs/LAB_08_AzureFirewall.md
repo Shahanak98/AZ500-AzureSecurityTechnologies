@@ -39,7 +39,7 @@ In this exercise, you will complete the following tasks:
 - Task 6: Configure DNS servers.
 - Task 7: Test the firewall. 
 
-#### Task 1: Use a template to deploy the lab environment. 
+#### Task 1: Use a template to deploy the lab environment
 
 In this task, you will review and deploy the lab environment. 
 
@@ -294,9 +294,21 @@ In this task, you will test the firewall to confirm that it works as expected.
 > **Result:** You have successfully configured and tested the Azure Firewall.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+## Review
+
+In this lab, you have:
+
+- Used a template to deploy the lab environment. 
+- Deployed an Azure firewall.
+- Created a default route.
+- Configured an application rule.
+- Configured a network rule. 
+- Configured DNS servers.
+- Tested the firewall. 
+
+## You have successfully completed the lab
