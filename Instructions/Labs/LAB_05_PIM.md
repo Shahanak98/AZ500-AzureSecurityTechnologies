@@ -84,7 +84,7 @@ In this task, you will sign up for the Azure AD Premium P2 free trial.
 
 5. On the **Activate** blade, in the **Azure AD Premium P2** section, click on **Free Trial** and then click on **Activate**.
 
-#### Task 3: Create Azure AD users.
+#### Task 3: Create Azure AD users
 
 1. Navigate back to the **AdatumLab500-04** Azure Active Directory blade and, in the **Manage** section, click on **Users**.
 
@@ -221,7 +221,7 @@ In this task, you will make a user eligible for an Azure AD directory role.
 
     >**Note**: User aaduser2 is eligible for the Global Reader role. 
  
-#### Task 7: Give a user permanent assignment to a role.
+#### Task 7: Give a user permanent assignment to a role
 
 1. In the Azure Portal, navigate back to the **Azure AD Privileged Identity Management** blade and click on **Azure AD roles**.
 
@@ -254,7 +254,7 @@ In this exercise, you will complete the following tasks:
 - Task 1: Activate a role that does not require approval. 
 - Task 2: Activate a role that requires approval. 
 
-#### Task 1: Activate a role that does not require approval.
+#### Task 1: Activate a role that does not require approval
 
 In this task, you will activate a role that does not require approval.
 
@@ -301,7 +301,7 @@ In this task, you will activate a role that does not require approval.
 1.  On the **Deactivate - Billing Administrator** blade, click on **Deactivate** again to confirm.
 
 
-#### Task 2: Activate a role that requires approval. 
+#### Task 2: Activate a role that requires approval
 
 In this task, you will activate a role that requires approval.
 
@@ -432,7 +432,7 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. Select the entry representing the **Global Reader** review. Note that the **Progress** chart has been updated to show your review. 
 
-#### Task 2: Review PIM alerts, summary information, and detailed audit information. 
+#### Task 2: Review PIM alerts, summary information, and detailed audit information 
 
 In this task, you will review PIM alerts, summary information, and detailed audit information. 
 
@@ -455,9 +455,18 @@ In this task, you will review PIM alerts, summary information, and detailed audi
 > **Result:** You have configured an access review and reviewed audit information.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+## Review
+
+In this lab, you have:
+
+- Configured PIM users and roles.
+- Activated PIM roles with and without approval.
+- Created an Access Review and review PIM auditing features.
+
+## You have successfully completed the lab
+

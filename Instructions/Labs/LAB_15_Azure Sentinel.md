@@ -1,5 +1,3 @@
-
-
 # Lab 15: Microsoft Sentinel
 # Student lab manual
 
@@ -50,7 +48,7 @@ In this task, you will on-board Microsoft Sentinel and connect the Log Analytics
 
     >**Note**: Microsoft Sentinel has very specific requirements for workspaces. For example, workspaces created by Azure Security Center can not be used. Read more at [Quickstart: On-board Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
 	
-#### Task 2: Configure Microsoft Sentinel to use the Azure Activity data connector. 
+#### Task 2: Configure Microsoft Sentinel to use the Azure Activity data connector 
 
 In this task, you will configure Sentinel to use the Azure Activity data connector.  
 
@@ -80,7 +78,7 @@ In this task, you will configure Sentinel to use the Azure Activity data connect
 
     >**Note**: It may take over 15 minutes before the Status shows "Connected" and the graph displays Data received.
 
-#### Task 3: Create a rule that uses the Azure Activity data connector. 
+#### Task 3: Create a rule that uses the Azure Activity data connector 
 
 In this task, you will review and create a rule that uses the Azure Activity data connector. 
 
@@ -202,7 +200,7 @@ In this task, you will create a playbook. A security playbook is a collection of
 
     >**Note**: You now have a new active rule called **Playbook Demo**. If an event identified by the rue logic occurs, it will result in a medium severity alert, which will generate a corresponding incident.
 
-#### Task 6: Invoke an incident and review the associated actions.
+#### Task 6: Invoke an incident and review the associated actions
 
 1. In the Azure portal, navigate to the **Microsoft Defender for Cloud \| Overview** blade.
 
@@ -237,12 +235,22 @@ In this task, you will create a playbook. A security playbook is a collection of
 >**Results:** You have created an Microsoft Sentinel workspace, connected it to Azure Activity logs, created a playbook and custom alerts that are triggered in response to the removal of Just in time VM access policies, and verified that the configuration is valid.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+## Review
 
-**You have successfully completed the lab**
+In this lab, you have:
+
+- On-boarded Microsoft Sentinel.
+- Connected Azure Activity to Sentinel.
+- Created a rule that uses the Azure Activity data connector. 
+- Created a playbook.
+- Created a custom alert and configure the playbook as an automated response.
+- Invoked an incident and review the associated actions.
+
+## You have successfully completed the lab
 
 

@@ -77,7 +77,7 @@ In this task, you will sign up for the Azure AD Premium P2 free trial.
 5. On the **Activate** blade, in the **Azure AD Premium P2** section, click on **Free Trial** and then click on **Activate**.
 
 
-#### Task 3: Create Azure AD users and groups.
+#### Task 3: Create Azure AD users and groups
 
 In this task, you will create three users: aaduser1 (Global Admin), aaduser2 (user), and aaduser3 (user). You will need each user's principal name and password for later tasks. 
 
@@ -156,7 +156,7 @@ In this task, you will assign each user to the Azure Active Directory Premium P2
 
     >**Note**: At this point, you assigned Azure Active Directory Premium P2 licenses to all user accounts you will be using in this lab. Be sure to sign out and then sign back in. 
 
-#### Task 5: Configure Azure MFA settings.
+#### Task 5: Configure Azure MFA settings
 
 In this task, you will configure MFA and enable MFA for aaduser1. 
 
@@ -252,7 +252,7 @@ In this exercise, you will complete the following tasks
 - Task 1: Configure a conditional access policy.
 - Task 2: Test the conditional access policy.
 
-#### Task 1 - Configure a conditional access policy. 
+#### Task 1 - Configure a conditional access policy
 
 In this task, you will review conditional access policy settings and create a policy that requires MFA when signing in to the Azure portal. 
 
@@ -288,7 +288,7 @@ In this task, you will review conditional access policy settings and create a po
 
     >**Note**: At this point, you have a conditional access policy that requires MFA to sign in to the Azure portal. 
 
-#### Task 2 - Test the conditional access policy.
+#### Task 2 - Test the conditional access policy
 
 In this task, you will sign in to the Azure portal as **aaduser2** and verify MFA is required. You will also delete the policy before continuing on to the next exercise. 
 
@@ -437,9 +437,17 @@ In this task, you will review the Azure AD Identity Protection reports generated
 > **Result**: You have enabled Azure AD Identity Protection, configured user risk policy and sign-in risk policy, as well as validated Azure AD Identity Protection configuration by simulating risk events.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+## Review
+
+In this lab, you have:
+
+- Implemented Azure MFA.
+- Implemented Azure AD Conditional Access Policies.
+- Implemented Azure AD Identity Protection.
+
+## You have successfully completed the lab

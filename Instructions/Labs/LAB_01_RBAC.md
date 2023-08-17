@@ -19,7 +19,7 @@ In this lab, you will complete the following exercises
 - Exercise 3: Create the Service Desk group with the user Dylan Williams as its member (Azure CLI). 
 - Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group.
 
-### Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member. 
+### Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member 
 
 #### Estimated timing: 10 minutes
 
@@ -53,7 +53,7 @@ In this task, you will create a user account for Joseph Price.
 
 1. Refresh the **Users \| All users** blade to verify the new user was created in your Azure AD tenant.
 
-#### Task2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price to the group.
+#### Task2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price to the group
 
 In this task, you will create the *Senior Admins* group, add the user account of Joseph Price to the group, and configure it as the group owner.
 
@@ -77,7 +77,7 @@ In this task, you will create the *Senior Admins* group, add the user account of
 
 > **Result:** You used the Azure Portal to create a user and a group, and assigned the user to the group. 
 
-### Exercise 2: Create a Junior Admins group containing the user account of Isabel Garcia as its member.
+### Exercise 2: Create a Junior Admins group containing the user account of Isabel Garcia as its member
 
 #### Estimated timing: 10 minutes
 
@@ -86,7 +86,7 @@ In this exercise, you will complete the following tasks:
 - Task 1: Use PowerShell to create a user account for Isabel Garcia.
 - Task 2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia to the group. 
 
-#### Task 1: Use PowerShell to create a user account for Isabel Garcia.
+#### Task 1: Use PowerShell to create a user account for Isabel Garcia
 
 In this task, you will create a user account for Isabel Garcia by using PowerShell.
 
@@ -131,7 +131,7 @@ In this task, you will create a user account for Isabel Garcia by using PowerShe
     Get-AzureADUser 
     ```
 
-#### Task2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia to the group.
+#### Task2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia to the group
 
 In this task, you will create the Junior Admins group and add the user account of Isabel Garcia to the group by using PowerShell.
 
@@ -168,7 +168,7 @@ In this task, you will create the Junior Admins group and add the user account o
 > **Result:** You used PowerShell to create a user and a group account, and added the user account to the group account. 
 
 
-### Exercise 3: Create a Service Desk group containing the user account of Dylan Williams as its member.
+### Exercise 3: Create a Service Desk group containing the user account of Dylan Williams as its member
 
 #### Estimated timing: 10 minutes
 
@@ -177,7 +177,7 @@ In this exercise, you will complete the following tasks:
 - Task 1: Use Azure CLI to create a user account for Dylan Williams.
 - Task 2: Use Azure CLI to create the Service Desk group and add a user account of Dylan to the group. 
 
-#### Task 1: Use Azure CLI to create a user account for Dylan Williams.
+#### Task 1: Use Azure CLI to create a user account for Dylan Williams
 
 In this task, you will create a user account for Dylan Williams.
 
@@ -201,7 +201,7 @@ In this task, you will create a user account for Dylan Williams.
     az ad user list --output table
     ```
 
-#### Task 2: Use Azure CLI to create the Service Desk group and add a user account of Dylan to the group. 
+#### Task 2: Use Azure CLI to create the Service Desk group and add a user account of Dylan to the group 
 
 In this task, you will create the Service Desk group and assign Dylan to the group. 
 
@@ -246,7 +246,7 @@ In this task, you will create the Service Desk group and assign Dylan to the gro
 > **Result:** Using Azure CLI you created a user and a group accounts, and added the user account to the group. 
 
 
-### Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group.
+### Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group
 
 #### Estimated timing: 10 minutes
 
@@ -254,7 +254,7 @@ In this exercise, you will complete the following task:
 
 - Task 1: Assign the Service Desk Virtual Machine Contributor permissions to the resource group.   
 
-#### Task 1: Assign the Service Desk Virtual Machine Contributor permissions. 
+#### Task 1: Assign the Service Desk Virtual Machine Contributor permissions 
 
 1. In the Search resources, services, and docs text box at the top of the Azure portal page, type Resource Groups and press the Enter key.
 
@@ -288,9 +288,18 @@ In this exercise, you will complete the following task:
 > **Result:** You have assigned and checked RBAC permissions. 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
- **You have successfully completed the lab**
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+## Review
+
+In this lab, you have:
+
+- Created the Senior Admins group with the user account Joseph Price as its member.
+- Created a Junior Admins group containing the user account of Isabel Garcia as its member.
+- Created a Service Desk group containing the user account of Dylan Williams as its member.
+- Assigned the Virtual Machine Contributor role to the Service Desk group.
+
+## You have successfully completed the lab
