@@ -1,5 +1,3 @@
-
-
 # Lab 12: Service Endpoints and Securing Storage
 # Student lab manual
 

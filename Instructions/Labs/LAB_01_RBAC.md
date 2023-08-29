@@ -53,7 +53,7 @@ In this task, you will create a user account for Joseph Price.
 
 1. Refresh the **Users \| All users** blade to verify the new user was created in your Azure AD tenant.
 
-#### Task2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price to the group
+#### Task 2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price to the group
 
 In this task, you will create the *Senior Admins* group, add the user account of Joseph Price to the group, and configure it as the group owner.
 
@@ -131,7 +131,7 @@ In this task, you will create a user account for Isabel Garcia by using PowerShe
     Get-AzureADUser 
     ```
 
-#### Task2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia to the group
+#### Task 2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia to the group
 
 In this task, you will create the Junior Admins group and add the user account of Isabel Garcia to the group by using PowerShell.
 
@@ -244,7 +244,6 @@ In this task, you will create the Service Desk group and assign Dylan to the gro
 1. Close the Cloud Shell pane.
 
 > **Result:** Using Azure CLI you created a user and a group accounts, and added the user account to the group. 
-
 
 ### Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group
 

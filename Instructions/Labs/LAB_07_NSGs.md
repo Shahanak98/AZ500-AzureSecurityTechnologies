@@ -33,7 +33,7 @@ In this exercise, you will complete the following tasks:
 - Task 3: Create a network security group and associate it with the virtual network subnet.
 - Task 4: Create inbound NSG security rules to all traffic to web servers and RDP to the management servers.
 
-#### Task 1:  Create a virtual network
+#### Task 1: Create a virtual network
 
 In this task, you will create a virtual network to use with the network and application security groups. 
 
@@ -63,7 +63,7 @@ In this task, you will create a virtual network to use with the network and appl
 
 1. On the **Review + create** tab of the **Create virtual network** blade, click **Create**.
 
-#### Task 2:  Create application security groups
+#### Task 2: Create application security groups
 
 In this task, you will create an application security group.
 
@@ -97,7 +97,7 @@ In this task, you will create an application security group.
 
 1. Click **Review + create** and then click **Create**.
 
-#### Task 3:  Create a network security group and associate the NSG to the subnet
+#### Task 3: Create a network security group and associate the NSG to the subnet
 
 In this task, you will create a network security group. 
 

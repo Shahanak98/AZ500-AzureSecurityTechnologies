@@ -222,8 +222,6 @@ In this task, you will add a key to the Key Vault and view information about the
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
-
 ### Exercise 3: Configure an Azure SQL database and a data-driven application
 
 In this exercise, you will complete the following tasks:
@@ -233,7 +231,6 @@ In this exercise, you will complete the following tasks:
 - Task 3: Retrieve SQL Azure database ADO.NET Connection String 
 - Task 4: Log on to the Azure VM running Visual Studio 2019 and SQL Management Studio 2019
 - Task 5: Create a table in the SQL Database and select data columns for encryption
-
 
 #### Task 1: Enable a client application to access the Azure SQL Database service
 
@@ -277,7 +274,6 @@ In this task, you will enable a client application to access the Azure SQL Datab
 
     >**Note**: Make sure to copy the value *before* you navigate away from the blade. Once you do, it is no longer possible to retrieve its clear text value.
 
-
 #### Task 2: Create a policy allowing the application access to the Key Vault.
 
 In this task, you will grant the newly registered app permissions to access secrets stored in the Key Vault.
@@ -309,7 +305,6 @@ In this task, you will grant the newly registered app permissions to access secr
      >**Note**: In the above code snippet, replace the **[DeploymentID]** with **<inject key="DeploymentID" enableCopy="true"/>**.
 
 1. Close the Cloud Shell pane. 
-
 
 #### Task 3: Retrieve SQL Azure database ADO.NET Connection String 
 
@@ -429,7 +424,6 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 1. In the **SQL Server Management Studio** console, in the **Object Explorer** pane, under the **medical** node, expand the **Security** and **Always Encrypted Keys** subnodes. 
 
     >**Note**: The **Always Encrypted Keys** subnode contains the **Column Master Keys** and **Column Encryption Keys** subfolders.
-
 
 ### Exercise 4: Demonstrate the use of Azure Key Vault in encrypting the Azure SQL database
 

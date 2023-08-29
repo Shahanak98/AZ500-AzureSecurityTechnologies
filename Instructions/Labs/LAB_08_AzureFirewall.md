@@ -20,7 +20,6 @@ In this lab, you will complete the following exercise:
 - Exercise 1: Deploy and test an Azure Firewall
 
 ## Lab files:
-
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\08\\template.json**
 
 ### Exercise 1: Deploy and test an Azure Firewall
@@ -46,7 +45,6 @@ In this task, you will review and deploy the lab environment.
 In this task, you will create a virtual machine by using an ARM template. This virtual machine will be used in the last exercise for this lab.
 
 1. Sign-in to the Azure portal **`https://portal.azure.com/`**.
-
 
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy a custom template** and press the **Enter** key.
 
@@ -106,7 +104,6 @@ In this task you will deploy the Azure firewall into the virtual network.
 
     >**Note**: You will need this information in the next task.
 
-
 #### Task 3: Create a default route
 
 In this task, you will create a default route for the **Workload-SN** subnet. This route will configure outbound traffic through the firewall.
@@ -155,7 +152,6 @@ In this task, you will create a default route for the **Workload-SN** subnet. Th
     >**Note**: Azure Firewall is actually a managed service, but virtual appliance works in this situation.
 	
 1.  Click **Add** to add the route. 
-
 
 #### Task 4: Configure an application rule
 

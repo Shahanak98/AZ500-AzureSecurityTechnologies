@@ -242,7 +242,6 @@ In this task, you will validate the MFA configuration by testing the sign in of 
 
 > Result: You have created a new AD tenant, configured AD users, configured MFA, and tested the MFA experience for a user. 
 
-
 ### Exercise 2: Implement Azure AD Conditional Access Policies 
 
 ### Estimated timing: 15 minutes
