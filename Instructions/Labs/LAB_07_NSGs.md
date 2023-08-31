@@ -20,6 +20,8 @@ In this lab, you will complete the following exercises:
 - Exercise 1: Create the virtual networking infrastructure
 - Exercise 2: Deploy virtual machines and test the network filters
 
+## Estimated timing: 45 minutes
+
 ### Exercise 1: Create the virtual networking infrastructure
 
 ### Estimated timing: 20 minutes

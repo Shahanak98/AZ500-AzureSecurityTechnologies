@@ -20,9 +20,10 @@ In this lab, you will complete the following exercises:
 - Exercise 2: Activate PIM roles with and without approval.
 - Exercise 3: Create an Access Review and review PIM auditing features.
 
+## Estimated timing: 40 minutes
+
 ### Exercise 1 - Configure PIM users and roles
 
-#### Estimated timing: 15 minutes
 
 In this exercise, you will complete the following tasks:
 

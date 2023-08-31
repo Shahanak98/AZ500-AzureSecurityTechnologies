@@ -17,9 +17,10 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Collect data from an Azure virtual machine with Azure Monitor
 
+## Estimated timing: 45 minutes
+
 ### Exercise 1: Collect data from an Azure virtual machine with Azure Monitor
 
-### Exercise timing: 20 minutes
 
 In this exercise, you will complete the following tasks: 
 
