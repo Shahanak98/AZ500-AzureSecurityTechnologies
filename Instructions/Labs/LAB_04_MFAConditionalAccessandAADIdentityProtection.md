@@ -19,6 +19,7 @@ In this lab, you will complete the following exercises:
 - Exercise 2: Implement Azure AD Conditional Access Policies 
 - Exercise 3: Implement Azure AD Identity Protection
 
+## Estimated timing: 85 minutes
 
 ### Exercise 1: Implement Azure MFA
 
