@@ -19,6 +19,8 @@ In this lab, you will complete the following exercises
 - Exercise 3: Create the Service Desk group with the user Dylan Williams as its member (Azure CLI). 
 - Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group.
 
+## Estimated timing: 40 minutes
+
 ### Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member 
 
 #### Estimated timing: 10 minutes
