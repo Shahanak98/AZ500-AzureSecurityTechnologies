@@ -15,7 +15,7 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Resource Manager Locks
 
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ### Exercise 1: Resource Manager Locks
 
