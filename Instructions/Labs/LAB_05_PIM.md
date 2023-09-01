@@ -130,7 +130,6 @@ In this task, you will sign up for the Azure AD Premium P2 free trial.
 
     >**Note**: At this point, you should have three new users listed on the **Users** page. 
 
-
 #### Task 4: Assign Azure AD Premium P2 licenses to Azure AD users
 
 In this task, you will assign each user to the Azure Active Directory Premium P2 license.
@@ -154,7 +153,6 @@ In this task, you will assign each user to the Azure Active Directory Premium P2
 1. Back on the **Assign license** blade, click on **Assignment options**, ensure that all options are enabled(on), click on **Review + assign**, and click on **Assign**.
 
     >**Note**: At this point, you assigned Azure Active Directory Premium P2 licenses to all user accounts you will be using in this lab. Be sure to sign out and then sign back in. 
-
 
 #### Task 5: Make a user eligible for a role
 
@@ -301,7 +299,6 @@ In this task, you will activate a role that does not require approval.
 
 1.  On the **Deactivate - Billing Administrator** blade, click on **Deactivate** again to confirm.
 
-
 #### Task 2: Activate a role that requires approval
 
 In this task, you will activate a role that requires approval.
@@ -364,7 +361,7 @@ In this task, you will activate a role that requires approval.
 
 1. Sign out and close the InPrivate browser window.
 
-> Result: You have practiced activating PIM roles with and without approval. 
+> **Result**: You have practiced activating PIM roles with and without approval. 
 
 ### Exercise 3 - Create an Access Review and review PIM auditing features
 

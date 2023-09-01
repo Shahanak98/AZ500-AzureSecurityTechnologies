@@ -21,7 +21,6 @@ In this lab, you will complete the following exercise:
 ## Estimated timing: 45 minutes
 
 ## Lab files:
-
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxexternal.yaml**
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxinternal.yaml**
 
@@ -253,7 +252,6 @@ In this task,  you will download the Manifest files, edit the YAML file, and app
     deployment.apps/nginxexternal created
     service/nginxexternal created
     ```
-
 #### Task 6: Verify the you can access an external AKS-hosted service
 
 In this task, verify the container can be accessed externally using the public IP address.

@@ -79,7 +79,6 @@ In this task, you will use a template to deploy the lab infrastructure.
 
       >**Note**: It may take 10-15 minutes for recommendations to appear on the **Microsoft Defender for Cloud** blade. Rather than waiting, proceed to the next task but consider returning to this blade once you complete all the remaining tasks.
 
-
 #### Task 3: Configure Data Classification
 
 In this task, you will discover and classify information in SQL database for GPDR and data protection compliance.

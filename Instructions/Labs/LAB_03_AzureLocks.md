@@ -175,5 +175,4 @@ In this lab, you have:
 - Removed the ReadOnly lock and create a Delete lock.
 - Tested the Delete lock.
 
-
 ## You have successfully completed the lab

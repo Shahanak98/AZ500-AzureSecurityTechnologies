@@ -86,8 +86,7 @@ In this task, you will deploy an Azure VM that will host an Active Directory dom
 
     >**Note**: Do not wait for the deployment to complete but instead proceed to the next exercise. The deployment might take about 15 minutes. You will use the virtual machine deployed in this task in the third exercise of this lab.
 
-> Result: After you completed this exercise, you have initiated deployment of an Azure VM that will host an Active Directory domain controller by using an Azure Resource Manager template
-
+> **Result**: After you completed this exercise, you have initiated deployment of an Azure VM that will host an Active Directory domain controller by using an Azure Resource Manager template
 
 ### Exercise 2: Create and configure an Azure Active Directory tenant 
 
@@ -179,7 +178,6 @@ In this task, you will add a new Azure AD user and assign them to the Global Adm
 6. Sign out as **syncadmin** and close the InPrivate browser window.
 
 > **Result**: After you completed this exercise, you have created an Azure AD tenant, added a custom DNS name to the new Azure AD tenant, and created an Azure AD user with the Global Administrator role.
-
 
 ### Exercise 3: Synchronize Active Directory forest with an Azure Active Directory tenant
 
@@ -296,7 +294,6 @@ In this task, you will install AD Connect on the virtual machine.
     >**Note**: Installation should take about 2 minutes.
 
 21. Review the information on the **Configuration complete** page and click **Exit** to close the **Microsoft Azure Active Directory Connect** window.
-
 
 #### Task 3: Verify directory synchronization
 
