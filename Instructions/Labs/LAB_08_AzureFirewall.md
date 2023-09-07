@@ -22,6 +22,10 @@ In this lab, you will complete the following exercise:
 ## Lab files:
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\08\\template.json**
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-2-2.png)
+
 ### Exercise 1: Deploy and test an Azure Firewall
 
 ### Estimated timing: 40 minutes

@@ -19,6 +19,9 @@ In this lab, you will complete the following exercises:
 - Exercise 2: Implement Azure AD Conditional Access Policies 
 - Exercise 3: Implement Azure AD Identity Protection
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1b-1.png)
 
 ### Exercise 1: Implement Azure MFA
 

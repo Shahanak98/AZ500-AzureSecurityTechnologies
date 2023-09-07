@@ -14,6 +14,10 @@ In this lab, you will complete the following:
 
 - Exercise 1: Implement Azure Policy. 
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1a-2.png)
+
 ### Exercise 1: Implement Azure Policy
 
 #### Estimated timing: 20 minutes

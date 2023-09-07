@@ -19,6 +19,10 @@ In this lab, you will complete the following exercises:
 - Exercise 2: Create and configure an Azure Active Directory tenant
 - Exercise 3: Synchronize Active Directory forest with an Azure Active Directory tenant
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1b-3.png)
+
 ### Exercise 1: Deploy an Azure VM hosting an Active Directory domain controller
 
 ### Estimated timing: 10 minutes

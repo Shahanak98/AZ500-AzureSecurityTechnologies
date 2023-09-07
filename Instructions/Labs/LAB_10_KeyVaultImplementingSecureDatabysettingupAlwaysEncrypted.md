@@ -27,7 +27,11 @@ In this lab, you will complete the following exercises:
 
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\10\\program.cs**
 
-### Total Lab Time estimate: 60 minutes
+## Estimated timing: 60 minutes
+
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-3-1.png)
 
 ### Exercise 1: Deploy the base infrastructure from an ARM template
 

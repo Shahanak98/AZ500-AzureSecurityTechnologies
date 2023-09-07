@@ -15,6 +15,10 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Resource Manager Locks
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1a-3.png)
+
 ### Exercise 1: Resource Manager Locks
 
 #### Estimated timing: 20 minutes
