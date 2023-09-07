@@ -19,9 +19,10 @@ In this lab, you will complete the following exercise:
 
 ![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1a-3.png)
 
+## Estimated timing: 30 minutes
+
 ### Exercise 1: Resource Manager Locks
 
-#### Estimated timing: 20 minutes
 
 In this exercise, you will complete the following tasks:
 

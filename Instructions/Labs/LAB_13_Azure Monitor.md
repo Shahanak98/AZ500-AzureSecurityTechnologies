@@ -21,9 +21,10 @@ In this lab, you will complete the following exercise:
 
 ![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-4-1.png)
 
+## Estimated timing: 45 minutes
+
 ### Exercise 1: Collect data from an Azure virtual machine with Azure Monitor
 
-### Exercise timing: 20 minutes
 
 In this exercise, you will complete the following tasks: 
 

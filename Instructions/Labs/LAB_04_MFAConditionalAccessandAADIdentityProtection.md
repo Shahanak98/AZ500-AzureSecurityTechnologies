@@ -23,6 +23,8 @@ In this lab, you will complete the following exercises:
 
 ![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1b-1.png)
 
+## Estimated timing: 85 minutes
+
 ### Exercise 1: Implement Azure MFA
 
 ### Estimated timing: 30 minutes

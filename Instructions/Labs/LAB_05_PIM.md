@@ -24,9 +24,10 @@ In this lab, you will complete the following exercises:
 
 ![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1b-2.png)
 
+## Estimated timing: 40 minutes
+
 ### Exercise 1 - Configure PIM users and roles
 
-#### Estimated timing: 15 minutes
 
 In this exercise, you will complete the following tasks:
 

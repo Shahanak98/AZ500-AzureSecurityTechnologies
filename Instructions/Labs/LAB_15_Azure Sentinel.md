@@ -17,6 +17,9 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Implement Microsoft Sentinel
 
+## Estimated timing: 30 minutes
+
+
 ## Lab files:
 
 - **\\C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\15\\changeincidentseverity.json**
@@ -27,7 +30,6 @@ In this lab, you will complete the following exercise:
 
 ### Exercise 1: Implement Microsoft Sentinel
 
-### Estimated timing: 30 minutes
 
 In this exercise, you will complete the following tasks:
 

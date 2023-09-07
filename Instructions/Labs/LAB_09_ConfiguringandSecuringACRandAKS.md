@@ -18,6 +18,8 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Configuring and Securing ACR and AKS
 
+## Estimated timing: 45 minutes
+
 ## Lab files:
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxexternal.yaml**
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxinternal.yaml**
@@ -28,7 +30,6 @@ In this lab, you will complete the following exercise:
 
 ### Exercise 1: Configuring and Securing ACR and AKS
 
-### Estimated timing: 45 minutes
 
 > For all the resources in this lab, we are using the **East (US)** region. Verify with your instructor this is region to use for you class. 
 

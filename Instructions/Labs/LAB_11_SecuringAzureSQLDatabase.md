@@ -17,6 +17,8 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Implement SQL Database security features
 
+## Estimated timing: 30 minutes
+
 ## Lab files:
 
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\11\\azuredeploy.json**
@@ -27,7 +29,6 @@ In this lab, you will complete the following exercise:
 
 ### Exercise 1: Implement SQL Database security features
 
-### Estimated timing: 30 minutes
 
 In this exercise, you will complete the following tasks:
 

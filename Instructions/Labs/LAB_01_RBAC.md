@@ -23,6 +23,8 @@ In this lab, you will complete the following exercises
 
 ![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1.png)
 
+## Estimated timing: 40 minutes
+
 ### Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member 
 
 #### Estimated timing: 10 minutes

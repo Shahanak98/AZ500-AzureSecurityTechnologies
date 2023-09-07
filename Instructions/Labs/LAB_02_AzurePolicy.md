@@ -20,7 +20,9 @@ In this lab, you will complete the following:
 
 ### Exercise 1: Implement Azure Policy
 
-#### Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
+
+### Exercise 1: Implement Azure Policy
 
 In this exercise, you will complete the following tasks:
 
