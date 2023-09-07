@@ -20,6 +20,11 @@ In this lab, you will complete the following exercises:
 - Exercise 1: Create the virtual networking infrastructure
 - Exercise 2: Deploy virtual machines and test the network filters
 
+
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-2-1.png)
+
 ## Estimated timing: 45 minutes
 
 ### Exercise 1: Create the virtual networking infrastructure

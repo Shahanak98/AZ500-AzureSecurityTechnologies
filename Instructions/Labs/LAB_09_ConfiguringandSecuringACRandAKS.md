@@ -24,6 +24,10 @@ In this lab, you will complete the following exercise:
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxexternal.yaml**
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\09\\nginxinternal.yaml**
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-2-3.png)
+
 ### Exercise 1: Configuring and Securing ACR and AKS
 
 

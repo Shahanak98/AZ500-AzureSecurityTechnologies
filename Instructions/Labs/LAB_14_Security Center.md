@@ -18,6 +18,10 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Implement Microsoft Defender for Cloud
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-4-2.png)
+
 ### Exercise 1: Implement Microsoft Defender for Cloud
 
 In this exercise, you will complete the following tasks:

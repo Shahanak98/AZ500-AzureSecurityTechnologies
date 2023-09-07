@@ -17,6 +17,10 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Collect data from an Azure virtual machine with Azure Monitor
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-4-1.png)
+
 ## Estimated timing: 45 minutes
 
 ### Exercise 1: Collect data from an Azure virtual machine with Azure Monitor

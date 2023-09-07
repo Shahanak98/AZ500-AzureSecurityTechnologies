@@ -17,6 +17,10 @@ In this lab, you will complete the following exercise:
 
 - Exercise 1: Service endpoints and security storage
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-3-3.png)
+
 ## Estimated timing: 45 minutes
 
 ### Exercise 1: Service endpoints and security storage

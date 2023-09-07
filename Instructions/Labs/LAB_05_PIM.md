@@ -20,6 +20,10 @@ In this lab, you will complete the following exercises:
 - Exercise 2: Activate PIM roles with and without approval.
 - Exercise 3: Create an Access Review and review PIM auditing features.
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-1b-2.png)
+
 ## Estimated timing: 40 minutes
 
 ### Exercise 1 - Configure PIM users and roles

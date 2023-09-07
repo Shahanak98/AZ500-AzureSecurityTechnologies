@@ -24,6 +24,10 @@ In this lab, you will complete the following exercise:
 
 - **\\C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\15\\changeincidentseverity.json**
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-4-3.png)
+
 ### Exercise 1: Implement Microsoft Sentinel
 
 

@@ -23,6 +23,10 @@ In this lab, you will complete the following exercise:
 
 - **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\11\\azuredeploy.json**
 
+## Architecture diagram
+
+![](../Labs/Lab-Scenario-Preview/media/AZ-500-LSP-Mod-3-2.png)
+
 ### Exercise 1: Implement SQL Database security features
 
 
