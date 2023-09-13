@@ -53,7 +53,7 @@ In this task, you will create an Allowed Locations policy assignment and specify
 
    |Setting|Value|
    |---|---|
-   |Subscription|the name of you Azure subscription|
+   |Subscription|**CloudLabsAI.com SS - 042**|
    |Resource group|**AZ500LAB02-<inject key="DeploymentID" enableCopy="false"/>**|
 
 1. Click on **Select**.
@@ -66,7 +66,7 @@ In this task, you will create an Allowed Locations policy assignment and specify
    |Description|**Allow resources to be created in UK South Only for AZ500LAB02**|
    |Policy enforcement|**Enabled**|
 
-1. Click on **Next**.
+1. Click on **Parameters** tab.
 
 1. On the **Parameters** tab of the **Allowed locations** blade, in the **Allowed locations** drop-down list, select **UK South** as the only allowed location. 
 
