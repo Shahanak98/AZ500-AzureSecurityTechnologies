@@ -157,12 +157,13 @@ In this task, you will add a new Azure AD user and assign them to the Global Adm
 
    |Setting|Value|
    |---|---|
-   |User name|**syncadmin**|
-   |Name|**syncadmin**|
-   |Password|ensure that the option **Auto-generate password** is selected and click **Show Password**|
-   |Groups|**0 groups selected**|
-   |Roles|click **User**, then click **Global administrator**, and click **Select**|
-   |Usage Location|**United States**|  
+   |User principal name|**syncadmin**|
+   |Display Name|**syncadmin**|
+   |Password|Ensure that the option **Auto-generate password** is selected and Save the password|
+   
+   Then Select **Next:Properties**. In the **Usage Location** select **United States** <br>
+   Select **Next:Assignments**. Select **Add role**. Search **Global administrator**, and click **Select**. <br>
+   Then. Select **Review+create**
 
     >**Note**: Record the full user name. You can copy its value by clicking the **Copy to clipboard** button on the right hand side of the drop-down list displaying the domain name. 
 
@@ -170,13 +171,13 @@ In this task, you will add a new Azure AD user and assign them to the Global Adm
 
     >**Note**: An Azure AD user with the Global Administrator role is required in order to implement Azure AD Connect.
 
-4. Open an InPrivate browser window.
+5. Open an InPrivate browser window.
 
-5. Navigate to the Azure portal and sign in using the **syncadmin** user account. When prompted, change the password you recorded earlier in this task to **Pa55w.rd1234**.
+6. Navigate to the Azure portal and sign in using the **syncadmin** user account. When prompted, change the password you recorded earlier in this task to **Pa55w.rd1234**.
 
     >**Note**: To sign in you will need to provide a fully qualified name of the **syncadmin** user account, including the Azure AD tenant DNS domain name, which you recorded earlier in this task. This user name is in the format syncadmin@`<your_tenant_name>`.onmicrosoft.com, where `<your_tenant_name>` is the placeholder representing your unique Azure AD tenant name. 
 
-6. Sign out as **syncadmin** and close the InPrivate browser window.
+7. Sign out as **syncadmin** and close the InPrivate browser window.
 
 > **Result**: After you completed this exercise, you have created an Azure AD tenant, added a custom DNS name to the new Azure AD tenant, and created an Azure AD user with the Global Administrator role.
 
@@ -203,9 +204,9 @@ In this task, you will connect to the Azure VM running AD DS domain controller a
 
 3. On the **Virtual machines** blade, click the **adVM** entry. 
 
-4. On the **adVM** blade, click **Connect** and, in the drop-down menu, click **RDP**. 
+4. On the **adVM** blade, click **Connect**.
 
-5. In the **IP address** parameter, select **Load balancer public IP address**, then click **Download RDP File** and use it to connect to the **adVM** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credentials:
+5. In the **IP address** parameter, select **Load balancer public IP address**, then click **Select** in the Native RDP and click **Download RDP File** and use it to connect to the **adVM** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credentials:
 
    |Setting|Value|
    |---|---|
