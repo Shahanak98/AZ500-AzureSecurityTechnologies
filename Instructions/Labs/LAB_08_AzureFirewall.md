@@ -49,8 +49,6 @@ In this task, you will review and deploy the lab environment.
 
 In this task, you will create a virtual machine by using an ARM template. This virtual machine will be used in the last exercise for this lab.
 
-1. Sign-in to the Azure portal **`https://portal.azure.com/`**.
-
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy a custom template** and press the **Enter** key.
 
 1. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
