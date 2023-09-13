@@ -41,18 +41,17 @@ In this exercise, you will complete the following tasks:
 
 In this task, you will use a template to deploy the lab infrastructure. 
 
-1. Sign-in to the Azure portal **`https://portal.azure.com/`**.
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy a custom template** and hit **Enter** key.
 
-2. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy a custom template** and hit **Enter** key.
-3. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
+1. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
 
-4. On the **Edit template** blade, click **Load file**, locate the **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\11\\azuredeploy.json** file and click **Open**.
+1. On the **Edit template** blade, click **Load file**, locate the **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\\11\\azuredeploy.json** file and click **Open**.
 
     >**Note**: Review the content of the template and note that it deploys an Azure SQL database.
 
-5. On the **Edit template** blade, click **Save**.
+1. On the **Edit template** blade, click **Save**.
 
-6. On the **Custom deployment** blade, ensure that the following settings are configured (leave rest with the default values):
+1. On the **Custom deployment** blade, ensure that the following settings are configured (leave rest with the default values):
 
    |Setting|Value|
    |---|---|
@@ -60,7 +59,7 @@ In this task, you will use a template to deploy the lab infrastructure.
    |Resource group|click **Create new** and type the name **AZ500LAB11**|
    |Location|**(US) East US**|
 
-7. Click **Review + Create** and then click **Create**.
+1. Click **Review + Create** and then click **Create**.
 
     >**Note**: Wait for the deployment to complete. It might take upto 5 minutes.
 
