@@ -66,7 +66,7 @@ In this task, you will deploy an Azure VM that will host an Active Directory dom
 
 3. On the **Create an Azure VM with a new AD Forest** blade, click **Edit parameters**.
 
-4. On the **Edit parameters** blade, click **Load file**, in the **Open** dialog box, Navigate to **C:\AllFiles\AZ500-AzureSecurityTechnologies-prod\Allfiles\Labs\06\\active-directory-new-domain\\azuredeploy.parameters.json**, click **Open**, and then click **Save**. 
+4. On the **Edit parameters** blade, click **Load file**, in the **Open** dialog box, Navigate to **C:\AllFiles\AZ500-AzureSecurityTechnologies-lab-files\Allfiles\Labs\06\\active-directory-new-domain\\azuredeploy.parameters.json**, click **Open**, and then click **Save**. 
 
 
 5. On the **Create an Azure VM with a new AD Forest** blade, specify the following settings (leave others with their existing values):
