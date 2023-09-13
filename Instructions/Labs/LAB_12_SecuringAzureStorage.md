@@ -135,7 +135,7 @@ In this task, you will create a network security group with two outbound securit
 
 1. On the **myNsgPrivate** blade, in the **Settings** section, click **Outbound security rules**, and then click **+ Add**.
 
-1. On the **Add outbound security rule** blade, specify the following settings to explicitly deny outbound traffic to Internet (leave all other values with their default settings): 
+1. On the **Add inbound security rule** blade, specify the following settings to explicitly deny outbound traffic to Internet (leave all other values with their default settings): 
 
     |Setting|Value|
     |---|---|
@@ -150,11 +150,6 @@ In this task, you will create a network security group with two outbound securit
     |Priority|**1100**|
     |Name|**Deny-Internet-All**|
 
-1. On the **Add outbound security rule** blade, click **Add** to create the new outbound rule.
-
-    >**Note**: This rule overrides a default rule in all network security groups that allows outbound internet communication. 
-
-    >**Note**: In the next steps, you will create an inbound security rule that allows Remote Desktop Protocol (RDP) traffic to the subnet. The rule overrides a default security rule that denies all inbound traffic from the internet. Remote Desktop connections are allowed to the subnet so that connectivity can be tested in a later step.
 
 1. On the **myNsgPrivate** blade, in the **Settings** section, click **Inbound security rules** and then click **+ Add**.
 
