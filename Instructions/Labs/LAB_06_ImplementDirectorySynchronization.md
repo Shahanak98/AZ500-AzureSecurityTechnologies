@@ -203,13 +203,8 @@ In this task, you will connect to the Azure VM running AD DS domain controller a
 
 1. In the Azure portal, set the **Directory + subscription** filter to the Azure AD tenant associated with the Azure subscription into which you deployed the Azure VM in the first exercise of this lab.
 
-2. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Virtual machines** and press the **Enter** key.
-
-3. On the **Virtual machines** blade, click the **adVM** entry. 
-
-4. On the **adVM** blade, click **Connect**.
-
-5. In the **IP address** parameter, select **Load balancer public IP address**, then click **Select** in the Native RDP and click **Download RDP File** and use it to connect to the **adVM** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credentials:
+5. Search for **Load Balancer** in the Azure portal and select it. Then Select the load balancer present in the portal. From the **Settings** tab select **Frontend IP configuration** and Copy the IpAddress which we will using to login into adVM. Search for Remote Desktop Connection in the windows Search bar and Select it. Provide the IPAddress that was copied before.
+When prompted to authenticate, provide the following credentials:
 
    |Setting|Value|
    |---|---|
