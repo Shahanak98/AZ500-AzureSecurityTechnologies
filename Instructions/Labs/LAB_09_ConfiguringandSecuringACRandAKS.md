@@ -48,8 +48,6 @@ In this exercise, you will complete the following tasks:
 
 In this task, you will create a resource group for the lab an an Azure Container Registry.
 
-1. Sign-in to the Azure portal **`https://portal.azure.com/`**.
-
 1. In the Azure portal, open the Cloud Shell by clicking the first icon in the top right of the Azure Portal. If prompted, click **Bash** and **Create storage**.
 
 1. Ensure **Bash** is selected in the drop-down menu in the upper-left corner of the Cloud Shell pane.
@@ -100,7 +98,7 @@ In this task, you will create a Dockerfile, build an image from the Dockerfile, 
     az acr build --image sample/nginx:v1 --registry $ACRNAME --file Dockerfile .
     ```
 
-    >**Note**: Wait for the command to successfully complete. This might take about 2 minutes.
+    >**Note**: Wait for the command to successfully complete.
 
 1. Close the Cloud Shell pane.
 
@@ -133,8 +131,6 @@ In this task, you will create an Azure Kubernetes service and review the deploye
     |Kubernetes cluster name|**MyKubernetesCluster**|
     |Region|**(US) East US**|
     |Availability zones |**None**|
-    |Scale method|**Manual**|
-    |Node count|**1**|
 
 1. Click **Next: Node Pools >** and, on the **Node Pools** tab of the **Create Kubernetes cluster** blade, specify the following settings (leave others with their default values):
 
@@ -142,9 +138,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
     |----|----|
     |Enable virtual nodes|cleared checkbox|
 	
-1. Click **Next: Access >**, on the **Access** tab of the **Create Kubernetes cluster** blade, accept the defaults, and click **Next: Networking >**. 
-
-1. On the **Networking** tab of the **Create Kubernetes cluster** blade, specify the following settings (leave others with their default values):
+1. Click **Next: Networking >**, on the **Networking** tab of the **Create Kubernetes cluster** blade, specify the following settings (leave others with their default values):
 
     |Setting|Value|
     |----|----|
@@ -153,7 +147,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 
     >**Note**: AKS can be configured as a private cluster. This assigns a private IP to the API server to ensure network traffic between your API server and your node pools remains on the private network only. For more information, visit [Create a private Azure Kubernetes Service cluster](https://docs.microsoft.com/en-us/azure/aks/private-clusters) page.
 
-1. Click **Next: Integrations >** and, on the **Integrations** tab of the **Create Kubernetes cluster** blade, set **Enable Container Logs** to **Disabled**. 
+1. Click **Next: Integrations >** and, on the **Integrations** tab of the **Create Kubernetes cluster** blade, set **Azure Monitor** to **Off**. 
 
     >**Note**: In production scenarios, you would want to enable monitoring. Monitoring is disabled in this case since it is not covered in the lab. 
 
@@ -167,7 +161,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 	
 1. Navigate back to the **Resource groups** blade and click the **AZ500LAB09** entry. 
 
-    >**Note**: In the list of resources, note the AKS Cluster and the corresponding virtual network.
+    >**Note**: In the list of resources, note the AKS Cluster.
 
 1. In the Azure portal, open a Bash session in the Cloud Shell. 
 
@@ -198,9 +192,7 @@ In this task, you will grant the AKS cluster permission to access the ACR and ma
 
     ```
 
-    >**Note**: This command grants the 'acrpull' role assignment to the ACR. 
-
-    >**Note**: It may take a few minutes for this command to complete. 
+    >**Note**: This command grants the 'acrpull' role assignment to the ACR.  
 
 1. In the Bash session within the Cloud Shell pane, run the following to grant the AKS cluster the Contributor role to its virtual network. 
 
@@ -256,6 +248,7 @@ In this task,  you will download the Manifest files, edit the YAML file, and app
     deployment.apps/nginxexternal created
     service/nginxexternal created
     ```
+
 #### Task 6: Verify the you can access an external AKS-hosted service
 
 In this task, verify the container can be accessed externally using the public IP address.
@@ -286,7 +279,7 @@ In this task, you will deploy the internal facing service on the AKS.
 
 1. In the editor pane, scroll down to the line containing the reference to the container image and replace the **`<ACRUniquename>`** placeholder with the ACR name.
 
-1. In the editor pane, in the upper right corner, click the **ellipses** icon, click **Save** and then click **Close editor**. 
+1. Now to save this edited yaml file, perform CTRL + S and then CTRL + Q to exit. 
 
 1. In the Bash session within the Cloud Shell pane, run the following to apply the change to the cluster:
 
