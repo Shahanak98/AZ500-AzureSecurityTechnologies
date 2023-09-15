@@ -9,7 +9,7 @@ You have been asked to create a proof of concept of Microsoft Sentinel-based thr
 - Add built in and custom alerts 
 - Review how Playbooks can be used to automate a response to an incident.
 
-> For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
+  > For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
 ## Lab objectives
 
@@ -60,8 +60,12 @@ In this task, you will configure Sentinel to use the Azure Activity data connect
 
 1. In the Azure portal, on the **Microsoft Sentinel \| Overview** blade, in the **Configuration** section, click **Data connectors**. 
 
-1. On the **Microsoft Sentinel \| Data connectors** blade, review the list of available connectors, type **Azure** into the search bar and select the entry representing the **Azure Activity** connector (hide the menu bar on the left using \<< if needed), review its description and status, and then click **Open connector page**.
+1. On the **Microsoft Sentinel \| Data connectors** blade, scroll down and click on **Go to content hub** review the list of available connectors, type **Azure** into the search bar and select the entry representing the **Azure Activity** connector (hide the menu bar on the left using \<< if needed), and click on **Install** review its description and status, and then click **Open connector page**.
 
+    ![](../Labs/AZ-500-contenthub.png)
+   
+    ![](../Labs/AZ-500-azureactivity_install.png)
+       
 1. On the **Azure Activity** blade the **Instructions** tab should be selected, note the **Prerequisites** and scroll down to the **Configuration**. Take note of the information describing the connector update. Your Azure Pass subscription never used the legacy connection method so you can skip step 1 (the **Disconnect All** button will be grayed out) and proceed to step 2.
 
 1. In step 2 **Connect your subscriptions through diagnostic settings new pipeline**, review the "Launch the Azure Policy Assignment wizard and follow the steps" instructions then click **Launch the Azure Policy Assignment wizard\>**.
@@ -96,7 +100,7 @@ In this task, you will review and create a rule that uses the Azure Activity dat
 
 1. In the listing of rule templates, type **Suspicious** into the search bar form and click the **Suspicious number of resource creation or deployment** entry associated with the **Azure Activity** data source. And then, in the pane displaying the rule template properties, click **Create rule** (scroll to the right of the page if needed).
 
-    >**Note**: This rule has the medium severity. 
+    >**Note**: This rule has medium severity. 
 
 1. On the **General** tab of the **Analytic rule wizard - Create new rule from template** blade, accept the default settings and click **Next: Set rule logic >**.
 
@@ -108,7 +112,7 @@ In this task, you will review and create a rule that uses the Azure Activity dat
 
 1. On the **Automated response** tab of the **Analytic rule wizard - Create new rule from template** blade, accept the default settings and click **Next: Review >**. 
 
-1. On the **Review and create** tab of the **Analytic rule wizard - Create new rule from template** blade, click **Create**.
+1. On the **Review and create** tab of the **Analytic rule wizard - Create new rule from template** blade, click **Save**.
 
     >**Note**: You now have an active rule.
 
@@ -202,7 +206,7 @@ In this task, you will create a playbook. A security playbook is a collection of
 
 10. On the **Automated response** tab of the **Analytic rule wizard - Create new rule** blade, in the **Alert automation (classic)** dropdown list, select the checkbox next to the **Change-Incident-Severity** entry and click **Next: Review >**. 
 
-11. On the **Review and create** tab of the **Analytic rule wizard - Create new rule** blade, click **Create**.
+11. On the **Review and create** tab of the **Analytic rule wizard - Create new rule** blade, click **Save**.
 
     >**Note**: You now have a new active rule called **Playbook Demo**. If an event identified by the rue logic occurs, it will result in a medium severity alert, which will generate a corresponding incident.
 
